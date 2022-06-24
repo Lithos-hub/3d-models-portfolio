@@ -1,0 +1,127 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube.019",
+            "scale" : [
+                4.004374980926514,
+                0.689682126045227,
+                4.004374980926514
+            ],
+            "translation" : [
+                -0.0015585528453812003,
+                0.9332426190376282,
+                -0.001780326827429235
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Sand",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.7484021782875061,
+                    0.49168550968170166,
+                    0.2160402536392212,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.021",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 41224,
+            "max" : [
+                1,
+                1.215811014175415,
+                1
+            ],
+            "min" : [
+                -1.0006157159805298,
+                -1.0389456748962402,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 41224,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 41224,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 175425,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 494688,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 494688,
+            "byteOffset" : 494688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 329792,
+            "byteOffset" : 989376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 350850,
+            "byteOffset" : 1319168
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1670020,
+            "uri" : "tatooine-floor.bin"
+        }
+    ]
+}

@@ -3,11 +3,13 @@ import Sizes from "./Utils/Sizes";
 import Time from "./Utils/Time";
 import Camera from "./Camera";
 import Renderer from "./Renderer";
+import World from "./World/World";
+import Floor from "./World/Floor";
 
 let instance = null;
 
 export default class Experience {
-  constructor(canvas) {
+  constructor(canvas, elementsModel, floorModel) {
     if (instance) return instance;
     instance = this;
     // Global access
@@ -22,6 +24,8 @@ export default class Experience {
     this.scene = new THREE.Scene();
     this.camera = new Camera();
     this.renderer = new Renderer();
+    this.world = new World(elementsModel);
+    this.floor = new Floor(floorModel)
 
     // Resize event
     this.sizes.on("resize", () => {

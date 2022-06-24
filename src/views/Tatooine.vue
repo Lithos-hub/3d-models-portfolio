@@ -7,7 +7,7 @@
 import { onMounted } from 'vue'
 import { createCanvas } from '../three/Tatooine'
 
-onMounted(() => createCanvas())
+onMounted(() => createCanvas("tatooine-elements.gltf", "tatooine-floor.gltf"))
 </script>
 
 <style lang="scss" scoped>
